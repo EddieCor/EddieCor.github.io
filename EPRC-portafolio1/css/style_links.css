@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+body {
+  background-color: #a22522;
+  color: #f3d9b1;
+}
+
+h2::before {
+  content: "🕷️";
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+img {
+  max-width: 900px;
+  margin: auto;
+  display: block;
+}
+
+#container {
+  max-width: 550px;
+  margin: auto;
+}
+
+#container2 {
+  max-width: 450;
+  margin: auto;
+}
+
+#container3 {
+  max-width: 650px;
+  margin: auto;
+}
+
+div > a {
+  text-decoration: none;
+  color: c33149;
+  background-color: rgba(128, 128, 128, 0.8);
+  padding: 20px;
+  display: block;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 50px;
+}
+#container a {
+  text-decoration: none;
+  color: #c33149;
+  background-color: rgba(128, 128, 128, 0.8);
+  padding: 20px;
+  display: block;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 50px;
+}
+
+a::before {
+  content: "🕷️";
+}
+
+a::after {
+  content: "🕷️";
+}
+
+div {
+  padding: 15px;
+}
+
+img {
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10%;
+  display: block;
+}
+footer {
+  background-color: #212529;
+  width: 100%;
+  position: fixed;
+  color: #f3d9b1;
+  bottom: 0;
+  left: 0;
+}
